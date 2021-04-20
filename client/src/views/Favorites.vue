@@ -290,7 +290,7 @@ export default {
     color: red;
 }
 .favorites_container{
-    width: 80%;
+    width: 95%;
     height: 70vh;
     margin: 2% auto;
     display: grid;

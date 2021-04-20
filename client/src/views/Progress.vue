@@ -99,7 +99,7 @@ export default {
 <style lang='scss' scoped>
 .progress_container{
     width: 85%;
-    height: 90vh;
+    height: 95vh;
     border: 3px solid black;
     display: grid;
     grid-template-columns: repeat(3,1fr);
