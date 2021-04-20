@@ -123,6 +123,7 @@ export default {
             position: absolute;
             right: -15%;
             margin-left: 100px;
+            bottom: 3%;
         }
     }
 }

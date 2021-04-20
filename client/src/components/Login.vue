@@ -51,8 +51,8 @@ export default {
 .login_container{
     background: white;
     width: 28%;
-    margin: 3% auto;
-    padding: 20px;
+    margin: 1% auto;
+    padding: 15px 20px;
     border-radius: 10px;
     text-align: center;
     display: flex;
