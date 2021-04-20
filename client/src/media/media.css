@@ -1,0 +1,655 @@
+@media all and (max-width: 500px){
+    /*Login Page*/
+
+    .login_container{
+        background: white;
+        width: 95%!important;
+    }
+    .login_container .v-text-field{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .login_container .logo_img{
+        width: 200px!important;
+        height: 200px!important;
+        margin: 2px auto 20px auto!important;
+    }
+
+
+    /* Calculator */
+    
+    .calorie_calculator{
+        width: 90vw!important;
+        height: auto!important;
+        grid-template-columns: repeat(1,1fr)!important;
+    }
+    .search_panel{
+     border-right: none !important;
+
+    }
+    .information_panel{
+        width: 100%!important;
+        border-radius: 0!important;
+        font-size: 0.7rem!important;
+    }
+    .search_panel .background_image{
+        height: 200px!important;
+    }
+    .search_panel form .v-input__control{
+        font-size: 0.7rem!important;
+        width: 100%!important;
+    }
+    .search_panel form button{
+        font-size: 0.7rem!important;
+        padding: 10px !important;
+    }
+    .search_panel h3{
+        font-size: 0.8rem!important;
+    }
+    th{
+        font-size: 0.7rem!important;
+    }
+    table{
+        width: 100vw!important;
+    }
+
+    .info_box{
+        font-size: 0.8rem!important;
+    }
+
+
+    /* Meals */
+    .meals_container{
+        width: 100%!important;
+        margin: 5% auto!important;
+        grid-template-columns: repeat(1,1fr)!important;
+    }
+    .meals_container .options_container{
+        width: 80%!important;
+        margin: 0 auto!important;
+        display: grid!important;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .meals_container .options_container table{
+        width: 100%!important;
+    }
+    .meals_container .options_container .v-btn{
+        width: 80px!important;
+        font-size: 0.6rem!important;
+        padding: 0!important;
+        margin: 0 auto!important;
+        align-self: center!important;
+    }
+    .meals_container .option{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+    }
+    .meals_container .content_container{
+        width: 100%!important;
+        border-radius: 0!important;
+    }
+    .meals_container .content_container .v-data-table{
+        max-width: 100%;
+        margin-left: 0!important;
+    }
+    .fa-utensils{
+        margin-left: 10px!important;
+        font-size: 0.8rem !important;
+    }
+    .selectedIcon{
+        color: black;
+    }
+
+    /* Progress */
+    .progress_container{
+        width: 95%!important;
+        height: auto!important;
+        grid-template-columns: repeat(1,1fr)!important;
+        margin: 5% auto;
+        padding: 30px 0!important;
+        border: none!important;
+    }
+    .multi-chart-container{
+        display: block!important;
+        flex-flow: column;
+        width: 100%!important;
+        height: auto!important;
+        border-bottom: 1px solid black;
+        margin-left: 0!important;
+        height: 20vh!important;
+    }
+    .chart_container{
+        width: 50px!important;
+        height: 200px!important;
+    }
+    .pie-chart{
+        width: 100px!important;
+        height: 100px!important;
+        border-radius: 50%;
+        border: 3px solid black;
+        margin: 0 auto;
+        position: relative;
+        cursor: pointer;
+    }
+    .middle-chart{
+        border: 3px solid black;
+        width: 50px!important;
+        height: 50px!important;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 24px!important;
+    }
+    .chart-container h4{
+        margin: 15px 0!important;
+    }
+    .macros_container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr)!important;
+        grid-gap: 1rem;
+    }
+    .macro-chart{
+        width: 50px!important;
+        height: 50px!important;
+    }
+    .middle-chart-macros{
+        width: 20px!important;
+        height: 20px!important;
+        margin-top: 13px!important;
+    }
+    .third-micro{
+        width: 100%!important;
+    }
+    .personal_info{
+        height: auto!important;
+        border-right: none!important;
+    }
+    .personal_info .logo_container{
+        width: 100%!important;
+        margin: 0!important;
+    }
+    .multi-chart-container .date_container{
+        margin-left: 0!important;
+        text-align: center;
+    }
+    .multi-chart-container .date_container h4{
+        position: relative!important;
+        margin-left: 0!important;
+        right: 0!important;
+    }
+
+    /* Favourites */
+
+    
+    .favorites_container{
+        width: 95%!important;
+        height: 70vh;
+        margin: 2% auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr)!important;
+        grid-gap: 1rem;
+    }
+
+}
+
+@media all and (max-width:768px) and (min-width:502px){
+        /*Login Page*/
+
+        .login_container{
+            background: white;
+            width: 60%!important;
+        }
+        .login_container .v-text-field{
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+        .login_container .logo_img{
+            width: 200px!important;
+            height: 200px!important;
+            margin: 2px auto 20px auto!important;
+        }
+     /* Navbar */
+     .navbar{
+        height: 50px!important;
+    }
+    .navbar h2{
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 9px;
+    }
+    .navbar a{
+        font-size: 0.7rem!important;
+    }
+       /* Calculator */
+    
+       .calorie_calculator{
+        width: 70vw!important;
+        height: auto!important;
+        grid-template-columns: repeat(1,1fr)!important;
+    }
+    .search_panel{
+     border-right: none !important;
+
+    }
+    .information_panel{
+        width: 100%!important;
+        border-radius: 0!important;
+        font-size: 0.7rem!important;
+    }
+    .search_panel .background_image{
+        height: 270px!important;
+    }
+    .search_panel form .v-input__control{
+        font-size: 0.7rem!important;
+        width: 100%!important;
+    }
+    .search_panel form button{
+        font-size: 0.7rem!important;
+        padding: 10px !important;
+    }
+    .search_panel h3{
+        font-size: 0.8rem!important;
+    }
+    th{
+        font-size: 0.7rem!important;
+    }
+    table{
+        width: 100vw!important;
+    }
+
+    .info_box{
+        font-size: 0.8rem!important;
+    }
+
+     /* Meals */
+     .meals_container{
+        width: 100%!important;
+        margin: 5% auto!important;
+        grid-template-columns: repeat(1,1fr)!important;
+    }
+    .meals_container .options_container{
+        width: 50%!important;
+        margin: 0 auto!important;
+        display: grid!important;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .meals_container .options_container table{
+        width: 100%!important;
+    }
+    .meals_container .options_container .v-btn{
+        width: 90px!important;
+        font-size: 0.7rem!important;
+        padding: 0!important;
+        margin: 0 auto!important;
+        align-self: center!important;
+    }
+    .meals_container .option{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+    }
+    .meals_container .content_container{
+        width: 97%!important;
+        border-radius: 0!important;
+        margin: 0 auto!important;
+    }
+    .meals_container .content_container .v-data-table{
+        max-width: 100%;
+        margin-left: 0!important;
+    }
+    .fa-utensils{
+        margin-left: 10px!important;
+        font-size: 0.8rem !important;
+    }
+    .selectedIcon{
+        color: black;
+    }
+
+     /* Progress */
+     .progress_container{
+        width: 95%!important;
+        height: auto!important;
+        grid-template-columns: repeat(1,1fr)!important;
+        margin: 5% auto;
+        padding: 30px 0!important;
+        border: none!important;
+    }
+    .multi-chart-container{
+        display: block!important;
+        flex-flow: column;
+        width: 100%!important;
+        height: auto!important;
+        border-bottom: 1px solid black;
+        margin-left: 0!important;
+        height: 20vh!important;
+    }
+    .chart_container{
+        width: 50px!important;
+        height: 200px!important;
+    }
+    .pie-chart{
+        width: 150px!important;
+        height: 150px!important;
+        border-radius: 50%;
+        border: 3px solid black;
+        margin: 0 auto;
+        position: relative;
+        cursor: pointer;
+    }
+    .middle-chart{
+        border: 3px solid black;
+        width: 75px!important;
+        height: 75px!important;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 37px!important;
+    }
+    .chart-container h4{
+        margin: 15px 0!important;
+    }
+    .macros_container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr)!important;
+        grid-gap: 1rem;
+    }
+    .macro-chart{
+        width: 75px!important;
+        height: 75px!important;
+    }
+    .middle-chart-macros{
+        width: 35px!important;
+        height: 35px!important;
+        margin-top: 18.5px!important;
+    }
+    .third-micro{
+        width: 100%!important;
+    }
+    .personal_info{
+        height: auto!important;
+        border-right: none!important;
+    }
+    .personal_info .logo_container{
+        width: 100%!important;
+        margin: 0!important;
+    }
+    .multi-chart-container .date_container{
+        margin-left: 0!important;
+        text-align: center;
+    }
+    .multi-chart-container .date_container h4{
+        position: relative!important;
+        margin-left: 0!important;
+        right: 0!important;
+    }
+    /*Favourites*/
+    .favorites_container{
+        width: 98%!important;
+        height: 70vh;
+        margin: 2% auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr)!important;
+        grid-gap: 1rem;
+    }
+
+}
+
+@media all and (max-width:1024px) and (min-width:770px){
+    /*Login Page*/
+
+    .login_container{
+        background: white;
+        width: 45%!important;
+    }
+    .login_container .v-text-field{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .login_container .logo_img{
+        width: 200px!important;
+        height: 200px!important;
+        margin: 2px auto 20px auto!important;
+    }
+ /* Navbar */
+ .navbar{
+    height: 50px!important;
+}
+.navbar h2{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 9px;
+}
+.navbar a{
+    font-size: 0.7rem!important;
+}
+   /* Calculator */
+
+   .calorie_calculator{
+    width: 70vw!important;
+    height: auto!important;
+    grid-template-columns: repeat(1,1fr)!important;
+}
+.search_panel{
+ border-right: none !important;
+
+}
+.information_panel{
+    width: 100%!important;
+    border-radius: 0!important;
+    font-size: 0.7rem!important;
+}
+.search_panel .background_image{
+    height: 270px!important;
+}
+.search_panel form .v-input__control{
+    font-size: 0.7rem!important;
+    width: 100%!important;
+}
+.search_panel form button{
+    font-size: 0.7rem!important;
+    padding: 10px !important;
+}
+.search_panel h3{
+    font-size: 0.8rem!important;
+}
+th{
+    font-size: 0.7rem!important;
+}
+table{
+    width: 100vw!important;
+}
+
+.info_box{
+    font-size: 0.8rem!important;
+}
+
+ /* Meals */
+ .meals_container{
+    width: 100%!important;
+    margin: 5% auto!important;
+    grid-template-columns: repeat(1,1fr)!important;
+}
+.meals_container .options_container{
+    width: 40%!important;
+    margin: 0 auto!important;
+    display: grid!important;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center!important;
+    align-items: center!important;
+}
+.meals_container .options_container table{
+    width: 100%!important;
+}
+.meals_container .options_container .v-btn{
+    width: 90px!important;
+    font-size: 0.7rem!important;
+    padding: 0!important;
+    margin: 0 auto!important;
+    align-self: center!important;
+}
+.meals_container .option{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+}
+.meals_container .content_container{
+    width: 97%!important;
+    border-radius: 0!important;
+    margin: 0 auto!important;
+}
+.meals_container .content_container .v-data-table{
+    max-width: 100%;
+    margin-left: 0!important;
+}
+.fa-utensils{
+    margin-left: 10px!important;
+    font-size: 0.8rem !important;
+}
+.selectedIcon{
+    color: black;
+}
+
+ /* Progress */
+ .progress_container{
+    width: 95%!important;
+    height: auto!important;
+    grid-template-columns: repeat(1,1fr)!important;
+    margin: 5% auto;
+    padding: 30px 0!important;
+    border: none!important;
+}
+.multi-chart-container{
+    display: block!important;
+    flex-flow: column;
+    width: 100%!important;
+    height: auto!important;
+    border-bottom: 1px solid black;
+    margin-left: 0!important;
+    height: 35vh!important;
+}
+.chart_container{
+    width: 50px!important;
+    height: 200px!important;
+}
+.pie-chart{
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+.middle-chart{
+    border: 3px solid black;
+    width: 75px!important;
+    height: 75px!important;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 37px!important;
+}
+.chart-container h4{
+    margin: 15px 0!important;
+}
+.macros_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)!important;
+    grid-gap: 1rem;
+}
+.macro-chart{
+    width: 75px!important;
+    height: 75px!important;
+}
+.middle-chart-macros{
+    width: 35px!important;
+    height: 35px!important;
+    margin-top: 18.5px!important;
+}
+.third-micro{
+    width: 100%!important;
+}
+.personal_info{
+    height: auto!important;
+    border-right: none!important;
+}
+.personal_info .logo_container{
+    width: 100%!important;
+    margin: 0!important;
+}
+.multi-chart-container .date_container{
+    margin-left: 0!important;
+    text-align: center;
+}
+.multi-chart-container .date_container h4{
+    position: relative!important;
+    margin-left: 0!important;
+    right: 0!important;
+}
+/*Favourites*/
+.favorites_container{
+    width: 95%!important;
+    height: 70vh;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr)!important;
+    grid-gap: 1rem;
+}
+
+}
+
+@media all and (min-width:1050px) and (max-width: 1445px){
+
+            /*Login Page*/
+
+            .login_container{
+                background: white;
+                margin: 1% auto!important;
+            }
+        
+            .login_container .logo_img{
+                width: 230px!important;
+                height: 230px!important;
+                margin: 2px auto 20px auto!important;
+            }
+         /* Navbar */
+         .navbar{
+            height: 50px!important;
+        }
+        .navbar h2{
+            font-size: 0.9rem;
+            text-align: center;
+            margin-top: 9px;
+        }
+        .navbar a{
+            font-size: 0.8rem!important;
+        }
+    /*Progress*/
+    .progress_container{
+        width: 90%!important;
+        height: 93.5vh!important;
+        border: 3px solid black;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 2% auto;
+    }
+    .date_container h4{
+        top: 2%;
+    }
+    /*Calculator*/
+    .calorie_calculator{
+        height: 77vh!important;
+    }
+    /*Favorites*/
+    .favorites_container{
+        width: 95%!important;
+    }
+}
